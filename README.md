@@ -1,5 +1,22 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+To run the project, see below for CRA instructions, or run: 
+
+npm install
+npm start
+
+TODO: 
+Enable user to select custom cities (a public api for city list) and store them in Local storage or Firebase, as well as delete them
+Write tests
+Implement React Hooks
+Implement redux-router, route to 5-day-forecast from saga
+Implement error handling
+Implement loading indicator
+Bugfix (if user navigates directly to 5-day, empty screen)
+Improve types
+Custom css icons with animations for all weather-api possibilities (Hail, Tornado etc.)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
