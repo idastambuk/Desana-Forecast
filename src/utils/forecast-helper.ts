@@ -53,7 +53,7 @@ export const medianForecastHandler = (forecastMatrix: IWeatherDTO[][]) => {
     }
     forecastMedian.push(day);
   }
-  return forecastMedian;
+  return forecastMedian.slice(1,6);
 }
 
 export const formatDate = (date: string) => {
